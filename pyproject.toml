@@ -1,7 +1,7 @@
 [project]
 name = "life"
 version = "0.1.0"
-description = "Add your description here"
+description = "Conway's Game of Life built in Mojo. Based on the tutorial at https://mojolang.org/docs/manual/get-started/"
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
 dependencies = [
