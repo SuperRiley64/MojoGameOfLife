@@ -3,6 +3,21 @@
 A GPU-accelerated Conway's Game of Life implementation written in Mojo using pygame for rendering.
 Based on the tutorial at https://mojolang.org/docs/manual/get-started/
 
+## My benchmark results
+```
+===== CPU Benchmark =====
+CPU Time: 25.611646958001074
+CPU GPS: 390.44736234254555
+
+===== GPU Benchmark =====
+Using GPU: Apple M4
+GPU Time: 10.806141957989894
+GPU GPS: 925.3996513164585
+
+===== Speedup =====
+GPU speedup: 2.370100916457443 x
+```
+
 ## Requirements
 
 - Linux, MacOS, or WSL
