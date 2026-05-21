@@ -48,4 +48,7 @@ mojo life.mojo
 ```
 
 Run the benchmark (no pygame bottleneck):
+
+```bash
 mojo life_bench.mojo
+```
