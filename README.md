@@ -4,6 +4,7 @@ A GPU-accelerated Conway's Game of Life implementation written in Mojo using pyg
 Based on the tutorial at https://mojolang.org/docs/manual/get-started/
 
 ## My benchmark results
+1000x1000 grid, 10,000 iterations:
 ```
 ===== CPU Benchmark =====
 CPU Time: 25.611646958001074
