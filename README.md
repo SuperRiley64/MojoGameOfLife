@@ -1,6 +1,6 @@
 # Conway's Game of Life in Mojo
 
-A simple Conway's Game of Life implementation written in Mojo using pygame for rendering.
+A GPU-accelerated Conway's Game of Life implementation written in Mojo using pygame for rendering.
 Based on the tutorial at https://mojolang.org/docs/manual/get-started/
 
 ## Requirements
@@ -46,3 +46,6 @@ Run the application:
 ```bash
 mojo life.mojo
 ```
+
+Run the benchmark (no pygame bottleneck):
+mojo life_bench.mojo
